@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirbhaya - Your Safety Companion</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="logo-title">
+                    <i class='bx bxs-shield-alt-2'></i>
+                    <h1>Nirbhaya</h1>
+                </div>
+                <h2 class="gradient-text">Your Safety Companion, Always By Your Side</h2>
+                <p>Empowering women with instant access to emergency services, trusted contacts, and a supportive community. Because your safety matters most.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Download Now</button>
+                    <a href="https://forms.gle/your-form-id" target="_blank" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+            <!-- App Preview Section -->
+            <div class="app-preview">
+                <div class="phone-mockup left">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="preview-content tracking">
+                                <h3>Real-Time Tracking</h3>
+                                <div class="preview-map"></div>
+                                <div class="tracking-status">
+                                    <i class='bx bxs-map-pin'></i>
+                                    <span>Location tracking active</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-mockup right">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="preview-content alerts">
+                                <h3>Emergency Alerts</h3>
+                                <div class="alert-demo">
+                                    <div class="alert-item">
+                                        <i class='bx bxs-bell'></i>
+                                        <span>Alert sent to emergency contacts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Key Features for Your Safety</h2>
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class='bx bxs-phone-call'></i>
+                        </div>
+                        <h3>SOS Emergency Call</h3>
+                        <p>Instantly connect to the nearest police station with one tap. Help is always just a button away.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class='bx bxs-bell'></i>
+                        </div>
+                        <h3>Emergency Alerts</h3>
+                        <p>Automatically notify your trusted contacts with your location when you need assistance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class='bx bxs-log-in'></i>
+                        </div>
+                        <h3>Quick Access</h3>
+                        <p>Simple phone number login with Google integration for a seamless experience.</p>
+                    </div>
+                </div>
+
+                <!-- SOS Demo -->
+                <div class="demo-section">
+                    <h3>Try Our SOS Feature Demo</h3>
+                    <div class="sos-demo">
+                        <button class="sos-button" id="sosButton">SOS</button>
+                        <div class="sos-status" id="sosStatus"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Sharing Widget -->
+        <section class="share-location" id="share-location">
+            <div class="container">
+                <div class="share-card">
+                    <div class="share-header">
+                        <i class='bx bxs-share-alt'></i>
+                        <h4>Quick Location Share</h4>
+                    </div>
+                    <div class="share-content">
+                        <p>Share your current location with trusted contacts instantly</p>
+                        <button class="btn btn-primary" id="shareLocationButton">
+                            <i class='bx bxs-map-pin'></i>
+                            Share My Location
+                        </button>
+                        <div id="shareStatus" class="share-status"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Section -->
+        <section class="safety" id="safety">
+            <div class="container">
+                <div class="safety-grid">
+                    <div class="safety-image">
+                        <img src="https://images.unsplash.com/photo-1698716206713-b2a8c7e50267" alt="Empowered Woman">
+                    </div>
+                    <div class="safety-content">
+                        <h2>Your Safety is Our Priority</h2>
+                        <div class="safety-features">
+                            <div class="safety-feature">
+                                <i class='bx bxs-shield'></i>
+                                <div>
+                                    <h3>24/7 Protection</h3>
+                                    <p>Round-the-clock access to emergency services and support whenever you need it.</p>
+                                </div>
+                            </div>
+                            <div class="safety-feature">
+                                <i class='bx bxs-heart'></i>
+                                <div>
+                                    <h3>Trusted Network</h3>
+                                    <p>Connect with verified contacts and build your safety network.</p>
+                                </div>
+                            </div>
+                            <div class="safety-feature">
+                                <i class='bx bxs-phone'></i>
+                                <div>
+                                    <h3>One-Touch Help</h3>
+                                    <p>Activate emergency protocols with a single tap in critical situations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section class="community" id="community">
+            <div class="container">
+                <div class="community-header">
+                    <h2>Join Our Supportive Community</h2>
+                    <p>Connect with others, share experiences, and access professional support when you need it.</p>
+                </div>
+                <div class="community-grid">
+                    <div class="community-card">
+                        <i class='bx bxs-group'></i>
+                        <h3>Community Support</h3>
+                        <p>Share your stories, find support, and connect with others who understand your journey.</p>
+                        <img src="https://images.unsplash.com/photo-1524601500432-1e1a4c71d692" alt="Support Group">
+                    </div>
+                    <div class="community-card">
+                        <i class='bx bxs-heart-circle'></i>
+                        <h3>Professional Therapy</h3>
+                        <p>Access confidential counseling services from certified professionals who care.</p>
+                        <img src="https://images.unsplash.com/photo-1484981138541-3d074aa97716" alt="Professional Counseling">
+                    </div>
+                </div>
+                <div class="community-cta">
+                    <button class="btn btn-primary">Join Our Community</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How does the app work?</h3>
+                        <p>Nirbhaya uses your phone's location services to connect you with nearby emergency services and your trusted contacts. With just one tap, you can activate the SOS feature and get immediate assistance.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is it available worldwide?</h3>
+                        <p>Currently, Nirbhaya is available in select regions and we're rapidly expanding our coverage to ensure women's safety worldwide.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is the app free to use?</h3>
+                        <p>Yes, Nirbhaya is completely free to use. Our mission is to make safety accessible to all women without any barriers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <a href="https://instagram.com/nirbhaya_app" target="_blank" class="social-link">
+                            <i class='bx bxl-instagram'></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Legal Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2024 Nirbhaya™. All Rights Reserved.</p>
+                    <p class="made-with-love">Made with <span class="heart">♥️</span> by team alpha</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="/scripts.js"></script>
+</body>
+</html>
